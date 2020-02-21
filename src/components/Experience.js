@@ -39,9 +39,10 @@ const experience = [
         web: 'https://www.moesol.com/',
         linkedin: 'https://www.linkedin.com/company/moebius-solutions-inc./about/',
         responsibilities: [
-            'sd',
-            'asd',
-            'asd'
+            'Utilized bleeding edge technology React/Redux to build front end web app',
+            'Utilized Electron framework to build desktop app with prior web development knowledge',
+            'Applied Model-View-Controller pattern for front end java development',
+            'Wrote instructional documentation and setup environment to sync Java Swing UI with web app console.'
         ]
     },
     {
@@ -51,9 +52,10 @@ const experience = [
         web: 'https://www.rimrockcapital.com/',
         linkedin: 'https://www.linkedin.com/company/rimrock-capital-management-llc/about/',
         responsibilities: [
-            'sd',   
-            'asd',
-            'asd'
+            'Created an automated task scheduler to archive local database records to AWS server with Python scripts',   
+            'Created and improved stored procedures for automation and backend API usage',
+            'Fixed frontend UI bug due to the incompatibility issue between file formats and backend database',
+            'Wrote unit tests for Python automated scripts and database tests for stored procedures'
         ]
     },
     {
@@ -63,9 +65,9 @@ const experience = [
         web: 'https://www.vanguardsolutions.org/',
         linkedin: 'https://www.linkedin.com/company/vanguard-infotech-solutions/about/',
         responsibilities: [
-            'sd',
-            'asd',
-            'asd'
+            'Designed frontend website for clients',
+            'Maintained and managed contents based on clients\' needs',
+            'Improved SEO to increase website\'s traffic and amount of visitors'
         ]
     },
     {
@@ -75,9 +77,9 @@ const experience = [
         web: 'https://www.mtsac.edu/',
         linkedin: 'https://www.linkedin.com/school/mount-san-antonio-college-or-mt.-sac/',
         responsibilities: [
-            'sd',
-            'asd',
-            'asd'
+            'Answered questions and tutored students in Math and Computer Science',
+            'Maintained the laboratory to be a productive learning environment',
+            'Assisted supervisors on helping students with their homework/classwork problems'
         ]
     }
 ];
