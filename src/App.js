@@ -13,7 +13,7 @@ const bodyStyle = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh',
-    minWidth: '500px',
+    minWidth: '800px',
   },
   mainContent: {
     flex: 1,  
