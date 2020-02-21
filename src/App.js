@@ -13,9 +13,11 @@ const bodyStyle = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh',
+    minWidth: '500px',
   },
   mainContent: {
     flex: 1,  
+    backgroundColor: 'lightgray',
   }
 });
 
