@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import profilepic from '../img/profilepic.png';
+import StarIcon from '@material-ui/icons/Star';
 
 const navBarStyle = makeStyles({
     navBar: {
@@ -30,6 +31,18 @@ const navBarStyle = makeStyles({
     img: {
         verticalAlign: 'bottom',
         width: '200px',
+    },
+    header: {
+        minHeight: '150px',
+        color: '#b5faff',
+        backgroundColor: 'black', 
+        textAlign: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+    },
+    headerItem: {
+        margin: 0,
     }
 });
 
@@ -37,10 +50,11 @@ const Header = () => {
     const classes = navBarStyle();
     return (
         <div>
-            <div className={classes.imgBlock}>
-                <img className={classes.img} src={profilepic} />
+            <div className={classes.header}>
+                <h1 className={classes.headerItem}>Patrick <StarIcon /> Quach</h1>
+                <h2 className={classes.headerItem}>--- Portfolio ---</h2>
+                <h2 className={classes.headerItem}>Software Engineer</h2>
             </div>
-
             <AppBar className={classes.navBar} position="static">
                 <Link className={classes.link} to="/">
                     <Button className={classes.button} variant="contained" color="primary">

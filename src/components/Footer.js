@@ -6,7 +6,7 @@ const footerStyle = makeStyles({
         height: '60px',
         lineHeight: '60px',
         backgroundColor: '#000000',
-        color: 'white',
+        color: '#b5faff',
         textAlign: 'center',
     },
     context: {

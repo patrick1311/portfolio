@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     },
     item: {
          textAlign: 'center',
-         minWidth: '460px',
+         minWidth: '300px',
          margin: '10px',
          padding: '20px',
          boxShadow: '0 10px 6px -6px #777',
@@ -73,8 +73,8 @@ const ContactItem = ({contactItem}) => {
             <div>
                 {
                     contactItem.type === 'website' ? 
-                    <h3 className={classes.headers}>Link: <a href={contactItem.link} target='_blank'>{contactItem.link}</a></h3> :
-                    <h3 className={classes.headers}>Email: <a href={'mailto:' + contactItem.link}>{contactItem.link}</a></h3>
+                    <h5 className={classes.headers}>Link: <a href={contactItem.link} target='_blank'>{contactItem.link}</a></h5> :
+                    <h5 className={classes.headers}>Email: <a href={'mailto:' + contactItem.link}>{contactItem.link}</a></h5>
                 }
             </div>
         </div>

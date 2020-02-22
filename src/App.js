@@ -17,7 +17,8 @@ const bodyStyle = makeStyles({
   },
   mainContent: {
     flex: 1,  
-    backgroundColor: 'lightgray',
+    backgroundColor: 'darkgray',
+    fontFamily: 'Brandon Grotesque',
   }
 });
 
