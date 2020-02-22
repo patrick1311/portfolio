@@ -2,7 +2,6 @@ import * as React from 'react';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/core';
 import moebius from '../img/moebius.png';
@@ -120,7 +119,7 @@ const Experience = () => {
             }
         </div>
     );
-}
+};
 
 const ExpItem = ({item, id}) => {
     const classes = useStyles();
@@ -143,7 +142,7 @@ const ExpItem = ({item, id}) => {
                         <h5 className={classes.headers}>Website: <a href={item.web}>{item.web}</a></h5>
                         <h5 className={classes.headers}>LinkedIn: <a href={item.linkedin}>{item.linkedin}</a></h5>
                     </div>
-                    <div className={classes.imageBlock}>
+                    <div>
                         <img className={classes.image} src={item.img} />
                     </div>
                 </div>
@@ -160,6 +159,6 @@ const ExpItem = ({item, id}) => {
             </ExpansionPanelDetails>
         </ExpansionPanel>
     );
-}
+};
 
 export default Experience;
