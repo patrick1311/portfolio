@@ -12,10 +12,20 @@ const useStyles = makeStyles({
       marginTop: '20px',
       marginBottom: '20px',
       display: 'flex',
+      flexDirection: 'row',
+      flexWrap: 'wrap',
       justifyContent: 'space-evenly'
     },
     item: {
          textAlign: 'center',
+         minWidth: '460px',
+         margin: '10px',
+         padding: '20px',
+         boxShadow: '0 10px 6px -6px #777',
+         backgroundColor: 'white',
+         '&:hover': {
+            boxShadow: '0 10px 8px 4px #777',
+         }
     },
     image: {
         width: '200px',

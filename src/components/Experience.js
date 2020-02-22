@@ -17,6 +17,12 @@ const useStyles = makeStyles({
       marginTop: '20px',
       marginBottom: '20px',
     },
+    itemPanel: {
+        boxShadow: '0 10px 6px -6px #777',
+        '&:hover': {
+            boxShadow: '0 10px 8px 4px #777',
+        }
+    },
     summaryPanel: {
         backgroundColor: '#3f51b5',
         color: 'white',
@@ -124,9 +130,9 @@ const Experience = () => {
 const ExpItem = ({item, id}) => {
     const classes = useStyles();
     const isExpanded = (id === 0 ? true : false);
-    const arr = item.technology;
+
     return (
-        <ExpansionPanel defaultExpanded={isExpanded} style={{margin: 20}}>
+        <ExpansionPanel className={classes.itemPanel} defaultExpanded={isExpanded} style={{margin: 20}}>
             <ExpansionPanelSummary
             expandIcon={<ExpandMoreIcon className={classes.summaryPanelIcon}/>}
             aria-controls="panel2a-content"
