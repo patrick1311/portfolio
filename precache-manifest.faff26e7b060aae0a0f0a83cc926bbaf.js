@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b5011467b71c598bab524baca01c694",
+    "revision": "9c3bccc150106f99e81ec903fcd716c1",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "da0ac665458a703dc81a",
+    "revision": "6db9dd02730ef01e43cf",
     "url": "/portfolio/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "80630a5e45c1ba07cfa1",
-    "url": "/portfolio/static/js/2.3d216fb8.chunk.js"
+    "revision": "bbfae7d4e634e26b1543",
+    "url": "/portfolio/static/js/2.f6a7c262.chunk.js"
   },
   {
     "revision": "3adc01bea76e7956dc3633ee898f6936",
-    "url": "/portfolio/static/js/2.3d216fb8.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.f6a7c262.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da0ac665458a703dc81a",
-    "url": "/portfolio/static/js/main.b8ba3e40.chunk.js"
+    "revision": "6db9dd02730ef01e43cf",
+    "url": "/portfolio/static/js/main.abee241f.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
+  },
+  {
+    "revision": "e9ba42382477d4fdfc84d3bc9d6a1bec",
+    "url": "/portfolio/static/media/Chess.e9ba4238.png"
+  },
+  {
+    "revision": "6e3b913668774cee6aa21ecb0030b8b6",
+    "url": "/portfolio/static/media/ChessMove.6e3b9136.png"
+  },
+  {
+    "revision": "efc530001254fc6fa1206b29edfb5ad8",
+    "url": "/portfolio/static/media/ComicPage.efc53000.png"
   },
   {
     "revision": "59205a6e3d68dcb3f766853dff99fd6d",
@@ -34,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d01809233fffdd9fdc4c8a83c0af1d01",
     "url": "/portfolio/static/media/StartRun.d0180923.png"
+  },
+  {
+    "revision": "0534c608b474571bb03c8321eeb1d587",
+    "url": "/portfolio/static/media/WebHome.0534c608.png"
   },
   {
     "revision": "fbeb1605c936934dbe256f0625b362e4",

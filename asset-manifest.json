@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/portfolio/static/js/main.b8ba3e40.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b8ba3e40.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.abee241f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.abee241f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.3d216fb8.chunk.js": "/portfolio/static/js/2.3d216fb8.chunk.js",
-    "static/js/2.3d216fb8.chunk.js.map": "/portfolio/static/js/2.3d216fb8.chunk.js.map",
+    "static/js/2.f6a7c262.chunk.js": "/portfolio/static/js/2.f6a7c262.chunk.js",
+    "static/js/2.f6a7c262.chunk.js.map": "/portfolio/static/js/2.f6a7c262.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.229db1bb2dd6eb91b114dc6d13be5072.js": "/portfolio/precache-manifest.229db1bb2dd6eb91b114dc6d13be5072.js",
+    "precache-manifest.faff26e7b060aae0a0f0a83cc926bbaf.js": "/portfolio/precache-manifest.faff26e7b060aae0a0f0a83cc926bbaf.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/portfolio/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.3d216fb8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3d216fb8.chunk.js.LICENSE.txt",
+    "static/js/2.f6a7c262.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f6a7c262.chunk.js.LICENSE.txt",
+    "static/media/Chess.png": "/portfolio/static/media/Chess.e9ba4238.png",
+    "static/media/ChessMove.png": "/portfolio/static/media/ChessMove.6e3b9136.png",
+    "static/media/ComicPage.png": "/portfolio/static/media/ComicPage.efc53000.png",
     "static/media/Gameplay.png": "/portfolio/static/media/Gameplay.59205a6e.png",
     "static/media/HomeScreen.png": "/portfolio/static/media/HomeScreen.d8907202.png",
     "static/media/StartRun.png": "/portfolio/static/media/StartRun.d0180923.png",
+    "static/media/WebHome.png": "/portfolio/static/media/WebHome.0534c608.png",
     "static/media/github.png": "/portfolio/static/media/github.fbeb1605.png",
     "static/media/gmail.png": "/portfolio/static/media/gmail.65dac773.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.87e58c32.png",
@@ -24,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.3d216fb8.chunk.js",
+    "static/js/2.f6a7c262.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.b8ba3e40.chunk.js"
+    "static/js/main.abee241f.chunk.js"
   ]
 }
