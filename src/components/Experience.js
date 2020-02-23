@@ -55,12 +55,13 @@ const useStyles = makeStyles({
 
 const experience = [
     {
-        title: 'Junior Software Engineer II',
+        title: 'Junior Software Engineer',
         company: 'Moebius Solutions, Inc.',
         date: 'December 2019 - Present',
         web: 'https://www.moesol.com/',
         linkedin: 'https://www.linkedin.com/company/moebius-solutions-inc./about/',
         img: moebius,
+        location: 'San Diego, CA',
         responsibilities: [
             'Utilized bleeding edge technology React/Redux to build front end web app',
             'Utilized Electron framework to build desktop app with prior web development knowledge',
@@ -76,6 +77,7 @@ const experience = [
         web: 'https://www.rimrockcapital.com/',
         linkedin: 'https://www.linkedin.com/company/rimrock-capital-management-llc/about/',
         img: rimrock,
+        location: 'Irvine, CA',
         responsibilities: [
             'Created an automated task scheduler to archive local database records to AWS server with Python scripts',   
             'Created and improved stored procedures for automation and backend API usage',
@@ -91,6 +93,7 @@ const experience = [
         web: 'https://www.vanguardsolutions.org/',
         linkedin: 'https://www.linkedin.com/company/vanguard-infotech-solutions/about/',
         img: vanguard,
+        location: 'Pomona, CA',
         responsibilities: [
             'Designed frontend website for clients using WordPress',
             'Maintained and managed contents based on clients\' needs',
@@ -105,6 +108,7 @@ const experience = [
         web: 'https://www.mtsac.edu/',
         linkedin: 'https://www.linkedin.com/school/mount-san-antonio-college-or-mt.-sac/',
         img: mtsac,
+        location: 'Walnut, CA',
         responsibilities: [
             'Answered questions and tutored students in Math and Computer Science',
             'Maintained the laboratory to be a productive learning environment',
@@ -138,7 +142,7 @@ const ExpItem = ({item, id}) => {
             aria-controls="panel2a-content"
             className={classes.summaryPanel}
             >
-                <h4 className={classes.headers}>{item.title + ' ----- '}<i>{item.company}</i></h4>
+                <h3 className={classes.headers}>{item.title + ' ----- '}<i>{item.company}</i></h3>
            
             </ExpansionPanelSummary>
             <ExpansionPanelDetails className={classes.detailsPanel}>
@@ -147,6 +151,7 @@ const ExpItem = ({item, id}) => {
                         <h5 className={classes.headers}>{item.date}</h5>
                         <h5 className={classes.headers}>Website: <a href={item.web}>{item.web}</a></h5>
                         <h5 className={classes.headers}>LinkedIn: <a href={item.linkedin}>{item.linkedin}</a></h5>
+                        <h5 className={classes.headers}>Location: {item.location}</h5>
                     </div>
                     <div>
                         <img className={classes.image} src={item.img} />
