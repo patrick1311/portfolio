@@ -11,6 +11,7 @@ const useStyles = makeStyles({
       marginBottom: '20px',
       padding: 20,
       border: '4px groove',
+      backgroundColor: 'white',
     },
     header: {
         textAlign: 'center',
