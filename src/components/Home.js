@@ -11,7 +11,6 @@ const useStyles = makeStyles({
       marginBottom: '20px',
       padding: 20,
       border: '4px groove',
-      backgroundColor: 'white',
     },
     header: {
         textAlign: 'center',
@@ -63,12 +62,6 @@ const Home = () => {
                 a <b>Computer Science and Math Tutor</b> in <i>Mt. San Antonio College</i>. I provided instructions to individuals or groups of students to prepare
                 for their tests, classwork, or homework, improving their academic performance and skills.
             </p>
-            <br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/>
         </div>
     );
 };
