@@ -7,6 +7,10 @@ import { makeStyles } from '@material-ui/core';
 import Gameplay from '../img/Gameplay.png';
 import HomeScreen from '../img/HomeScreen.png';
 import StartRun from '../img/StartRun.png';
+import Chess from '../img/Chess.png';
+import ChessMove from '../img/ChessMove.png';
+import WebHome from '../img/WebHome.png';
+import ComicPage from '../img/ComicPage.png';
 
 const useStyles = makeStyles({
     bodyContent: {
@@ -63,8 +67,9 @@ const projects = [
     },
     {
         title: 'RapidComics - Comicbook Website',
+        web: 'http://rrcomics-env.n8qcccpvs8.us-west-1.elasticbeanstalk.com',
         code: 'https://github.com/patrick1311/RapidComics',
-        img: [Gameplay, HomeScreen, StartRun],
+        img: [WebHome, ComicPage],
         info: 'The project was done in a group of five in Software Engineering course. We utilized Django as the framework for \
         this website. The web queries data from our AWS hosted database and displays information for each comicbook we have. \
         The data was scraped from a comicbookdb website. In this project, I was in charge of the front end development. \
@@ -73,7 +78,7 @@ const projects = [
     {
         title: 'Chess',
         code: 'https://github.com/patrick1311/Chess-Game',
-        img: [Gameplay, HomeScreen, StartRun],
+        img: [Chess, ChessMove],
         info: 'The game app was built as a group of 3 students. We used Java Swing for the UI. The goal was to show \
         that we had a solid understanding of Object Oriented Programming. In this project, my task was building the UI as well \
         as the animation for the chess pieces. In addition, I took part in designing the flow chart as a pre',
@@ -81,7 +86,7 @@ const projects = [
     {
         title: 'Matrix multiplication',
         code: 'https://github.com/patrick1311/MatrixMultiplication',
-        img: [Gameplay, HomeScreen, StartRun],
+        img: [],
         info: 'The objective of this project was to show the Strassen method of matrix multiplication \
         is more efficient compared to the traditional mathematical way.',
     }
@@ -105,6 +110,11 @@ const ProjItem = ({item, id}) => {
             <div className={classes.projectInfo}>
                 <div>
                     <h4 className={classes.headers}>Source code: <a href={item.code} target='_blank'>{item.code}</a></h4>
+                    {
+                        item.hasOwnProperty('web') ?
+                        <h4 className={classes.headers}>Web URL: <a href={item.web} target='_blank'>{item.web}</a></h4> :
+                        <React.Fragment></React.Fragment>
+                    }
                 </div>
             </div>
             <p style={{marginBottom: '0px'}}>{item.info}</p>
