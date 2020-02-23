@@ -4,6 +4,9 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/core';
+import Gameplay from '../img/Gameplay.png';
+import HomeScreen from '../img/HomeScreen.png';
+import StartRun from '../img/StartRun.png';
 
 const useStyles = makeStyles({
     bodyContent: {
@@ -42,12 +45,18 @@ const useStyles = makeStyles({
         justifyContent: 'space-between',
         border: '6px double',
     },
+    image: {
+        width: '250px',
+        verticalAlign: 'bottom',
+        margin: '10px',
+    }
 });
 
 const projects = [
     {
         title: 'Forward - IOS mobile game',
         code: 'https://github.com/patrick1311/Forward',
+        img: [Gameplay, HomeScreen, StartRun],
         info: 'This is a mobile game I developed using Unity Game Engine specifically for IOS platform. \
         The concept is similar to infinite runner games where player keeps on playing to reach the highest score. \
         The game increases in difficulty and speed up as the player get higher scores. More information is available in Github repo.',
@@ -55,6 +64,7 @@ const projects = [
     {
         title: 'RapidComics - Comicbook Website',
         code: 'https://github.com/patrick1311/RapidComics',
+        img: [Gameplay, HomeScreen, StartRun],
         info: 'The project was done in a group of five in Software Engineering course. We utilized Django as the framework for \
         this website. The web queries data from our AWS hosted database and displays information for each comicbook we have. \
         The data was scraped from a comicbookdb website. In this project, I was in charge of the front end development. \
@@ -63,6 +73,7 @@ const projects = [
     {
         title: 'Chess',
         code: 'https://github.com/patrick1311/Chess-Game',
+        img: [Gameplay, HomeScreen, StartRun],
         info: 'The game app was built as a group of 3 students. We used Java Swing for the UI. The goal was to show \
         that we had a solid understanding of Object Oriented Programming. In this project, my task was building the UI as well \
         as the animation for the chess pieces. In addition, I took part in designing the flow chart as a pre',
@@ -70,6 +81,7 @@ const projects = [
     {
         title: 'Matrix multiplication',
         code: 'https://github.com/patrick1311/MatrixMultiplication',
+        img: [Gameplay, HomeScreen, StartRun],
         info: 'The objective of this project was to show the Strassen method of matrix multiplication \
         is more efficient compared to the traditional mathematical way.',
     }
@@ -96,6 +108,11 @@ const ProjItem = ({item, id}) => {
                 </div>
             </div>
             <p style={{marginBottom: '0px'}}>{item.info}</p>
+            <div>
+                {
+                    item.img.map((image, index) => <img className={classes.image} src={image} />)
+                }
+            </div>
             </ExpansionPanelDetails>
         </ExpansionPanel>
     );
