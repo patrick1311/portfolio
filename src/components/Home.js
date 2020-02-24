@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { makeStyles } from '@material-ui/core';
 import profilepic from '../img/profilepic.png';
+import resume from '../pdf/PQuachResume.pdf';
 
 const useStyles = makeStyles({
     bodyContent: {
@@ -44,6 +45,7 @@ const Home = () => {
                 California State Polytechnic University, Pomona. I am always looking for opportunities to
                 grow and enhance my knowledge as a software engineer to advance my career in today technical industry.
             </p>
+            <a href = {resume} target = "_blank">See My Resume</a>
             <p>
                 Currently, I am a <b>Junior Software Engineer</b> at <i>Moebius Solutions</i>. We are a team of contractors focus on building
                 Command and Control software for the Navy and Marine Corps. My main responsibility
