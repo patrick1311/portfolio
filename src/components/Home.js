@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { makeStyles } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 import profilepic from '../img/profilepic.png';
 import resume from '../pdf/PQuachResume.pdf';
 
@@ -21,6 +22,10 @@ const useStyles = makeStyles({
         display: 'flex',
         flexDirection: 'row',
         verticalAlign: 'center',
+    },
+    resumeLink: {
+        textDecoration: 'none',
+        color: 'white',
     },
     image: {
         width: '200px',
@@ -45,7 +50,9 @@ const Home = () => {
                 California State Polytechnic University, Pomona. I am always looking for opportunities to
                 grow and enhance my knowledge as a software engineer to advance my career in today technical industry.
             </p>
-            <a href = {resume} target = "_blank">See My Resume</a>
+            <Button variant="contained" color="primary">
+                <a href = {resume} target = "_blank" className={classes.resumeLink}>See My Resume</a>
+            </Button>            
             <p>
                 Currently, I am a <b>Junior Software Engineer</b> at <i>Moebius Solutions</i>. We are a team of contractors focus on building
                 Command and Control software for the Navy and Marine Corps. My main responsibility
