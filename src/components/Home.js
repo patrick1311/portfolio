@@ -33,7 +33,6 @@ const useStyles = makeStyles({
         margin: '16px',
         marginLeft: '0',
         marginTop: '0',
-        float: 'left',
     }
 });
 
@@ -47,7 +46,7 @@ const Home = () => {
                 <img className={classes.image} src={profilepic} />
                 <div style={{textAlign: 'center', marginBottom: '10px'}}>
                     <Button variant="contained" color="primary">
-                        <a href = {resume} target = "_blank" className={classes.resumeLink}>See My Resume</a>
+                        <a href = {resume} target = "_blank" className={classes.resumeLink}>My Resume</a>
                     </Button> 
                 </div>
             </div>
