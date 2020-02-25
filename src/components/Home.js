@@ -43,16 +43,21 @@ const Home = () => {
     return (
         <div className={classes.bodyContent}>
             <h1 className={classes.header}>About Me</h1>
-            <img className={classes.image} src={profilepic} />
+            <div style={{float: 'left'}}>
+                <img className={classes.image} src={profilepic} />
+                <div style={{textAlign: 'center', marginBottom: '10px'}}>
+                    <Button variant="contained" color="primary">
+                        <a href = {resume} target = "_blank" className={classes.resumeLink}>See My Resume</a>
+                    </Button> 
+                </div>
+            </div>
             
             <p>
                 I am a recent graduate with a bachelor degree in Computer Science from 
                 California State Polytechnic University, Pomona. I am always looking for opportunities to
                 grow and enhance my knowledge as a software engineer to advance my career in today technical industry.
             </p>
-            <Button variant="contained" color="primary">
-                <a href = {resume} target = "_blank" className={classes.resumeLink}>See My Resume</a>
-            </Button>            
+                       
             <p>
                 Currently, I am a <b>Junior Software Engineer</b> at <i>Moebius Solutions</i>. We are a team of contractors focus on building
                 Command and Control software for the Navy and Marine Corps. My main responsibility
