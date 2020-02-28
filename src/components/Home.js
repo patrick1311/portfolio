@@ -44,10 +44,13 @@ const Home = () => {
             <h1 className={classes.header}>About Me</h1>
             <div style={{float: 'left'}}>
                 <img className={classes.image} src={profilepic} />
-                <div style={{textAlign: 'center', marginBottom: '10px'}}>
-                    <Button variant="contained" color="primary">
-                        <a href = {resume} target = "_blank" className={classes.resumeLink}>My Resume</a>
-                    </Button> 
+                
+                <div style={{marginRight: '16px'}}>
+                    <div style={{textAlign: 'center', marginBottom: '10px'}}>
+                        <Button variant="contained" color="primary">
+                            <a href = {resume} target = "_blank" className={classes.resumeLink}>My Resume</a>
+                        </Button> 
+                    </div>
                 </div>
             </div>
             
