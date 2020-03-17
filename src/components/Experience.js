@@ -68,7 +68,7 @@ const experience = [
             'Applied Model-View-Controller pattern for front end java development',
             'Wrote instructional documentation and setup environment to sync Java Swing UI with web app console.'
         ],
-        technology: ['JavaScript', 'TypeScript', 'Java', 'React', 'Redux', 'Electron', 'Docker', 'Kubernetes', 'BitBucket']
+        technology: ['JavaScript', 'TypeScript', 'Java', 'React', 'Redux', 'NodeJS', 'Electron', 'Docker', 'Kubernetes', 'BitBucket']
     },
     {
         title: 'Software Developer Intern',
