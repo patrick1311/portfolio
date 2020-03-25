@@ -27,6 +27,9 @@ const useStyles = makeStyles({
             boxShadow: '0 10px 8px 4px #777',
          }
     },
+    itemLink: {
+        textDecoration: 'none'
+    },
     image: {
         width: '200px',
         verticalAlign: 'bottom',
@@ -64,19 +67,28 @@ const Contact = () => {
 
 const ContactItem = ({contactItem}) => {
     const classes = useStyles();
-
+        
     return (
         <div className={classes.item}>
-            <div>
-                <img className={classes.image} src={contactItem.img} />
-            </div>
-            <div>
-                {
-                    contactItem.type === 'website' ? 
-                    <h5 className={classes.headers}>Link: <a href={contactItem.link} target='_blank'>{contactItem.link}</a></h5> :
-                    <h5 className={classes.headers}>Email: <a href={'mailto:' + contactItem.link}>{contactItem.link}</a></h5>
-                }
-            </div>
+            {
+                contactItem.type === 'website' ?
+                <a href={contactItem.link} target='_blank' className={classes.itemLink}>
+                    <div>
+                        <img className={classes.image} src={contactItem.img} />
+                    </div>
+                    <div>
+                        <h5 className={classes.headers}>Link: {contactItem.link}</h5>
+                    </div>
+                </a> :
+                <a href={'mailto:' + contactItem.link} className={classes.itemLink}>
+                    <div>
+                        <img className={classes.image} src={contactItem.img} />
+                    </div>
+                    <div>
+                        <h5 className={classes.headers}>Email: {contactItem.link}</h5>
+                    </div>
+                </a>
+            }
         </div>
     );
 };
