@@ -4,6 +4,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/core';
+import odme from '../img/odme.png';
 import moebius from '../img/moebius.png';
 import rimrock from '../img/rimrock.png';
 import vanguard from '../img/vanguard.png';
@@ -55,9 +56,27 @@ const useStyles = makeStyles({
 
 const experience = [
     {
-        title: 'Junior Software Engineer',
+        title: 'Software Engineer',
+        company: 'ODME Solutions, LLC',
+        date: 'May 2020 - Present',
+        web: 'https://odmesolutions.com/',
+        linkedin: 'https://www.linkedin.com/company/odme-solutions-llc/about/',
+        img: odme,
+        location: 'San Diego, CA',
+        responsibilities: [
+            'Implement frontend webapp using Ozone Widget Framework',
+            'Develop backend API requests',
+            'Utilize Postman and SwaggerUI for API requests test',
+            'Write technical documentation for other developers and end users using LaTeX',
+            'Integrate API automated test script into SDK package to deliver to other dev teams',
+            'Take part in daily scrum meeting as well as Sprint planning and Retro meeting'
+        ],
+        technology: ['JavaScript', 'TypeScript', 'Java', 'React', 'NodeJS', 'LaTeX', 'Jira', 'BitBucket', 'Confluence']
+    },
+    {
+        title: 'Software Engineer',
         company: 'Moebius Solutions, Inc.',
-        date: 'December 2019 - Present',
+        date: 'December 2019 - March 2020',
         web: 'https://www.moesol.com/',
         linkedin: 'https://www.linkedin.com/company/moebius-solutions-inc./about/',
         img: moebius,
