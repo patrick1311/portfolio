@@ -65,9 +65,9 @@ const Home = () => {
             </p>
             <p>
                 Before that, I used to work for <i>Moebius Solutions</i> as a <b>Junior Software Engineer</b> where we also build project for
-                the US Navy. After graduating with a bachelor degree in Computer Science from 
-                Cal Poly Pomona, I used to work as a <b>Software Developer Intern</b> for <i>Rimrock Capital Management</i>, a financial investment company.
-                Our software team built web applications to assist the business team with data analysis. I have learned all sort of
+                the US Navy. I got the opportunity to work as a <b>Software Developer</b> during summer internship for <i>Rimrock Capital Management</i> right 
+                after graduating with a BS Computer Science degree from Cal Poly Pomona. They are a financial investment company. The 
+                software team built web applications to assist the business team with data analysis. I have learned all sort of
                 useful technology such as React, Redux, and MS SQL database. 
             </p>
             <p>
@@ -76,8 +76,10 @@ const Home = () => {
                 a <b>Computer Science and Math Tutor</b> in <i>Mt. San Antonio College</i>. I provided instructions to individuals or groups of students to prepare
                 for their tests, classwork, or homework, improving their academic performance and skills.
             </p>
-            <br/>
-            <br/>
+            <p>
+                I am always searching for ways to grow my software engineer career. I am constantly looking out for great opportunity to join team of great developers 
+                where I can fit well and contribute my skills.
+            </p>
         </div>
     );
 };
