@@ -57,7 +57,7 @@ const Home = () => {
             <p>
                 I am a <b>Software Engineer</b> at <i>ODME Solutions</i>. We are a team of contractors focus on building
                 GCCS-M project (Global Command and Control System - Maritime) for the Navy and Marine Corps. My main responsibility
-                is develop front-end web appplications using modern web framework and library like ReactJS. 
+                is develop front-end web applications using modern web framework and library like ReactJS. 
                 I also contribute in developing as well as testing backend API requests.
                 In addition, I take part in daily scrum meetings to discuss about the plan to build the projects 
                 as well as attend tech talk meetings arranged by the seniors to learn more about bleeding edge technology.
@@ -75,6 +75,10 @@ const Home = () => {
                 for our clients as well as managing their website contents and their domain hosting services. In addition, I used to be
                 a <b>Computer Science and Math Tutor</b> in <i>Mt. San Antonio College</i>. I provided instructions to individuals or groups of students to prepare
                 for their tests, classwork, or homework, improving their academic performance and skills.
+            </p>
+            <p>
+                In my free time, I love watching scifi, adventures, and action movies. I also enjoy playing video games with friends. I recently start learning about photos and videos 
+                editing and I would like to get into video contents creation. 
             </p>
             <p>
                 I am always searching for ways to grow my software engineer career. I am constantly looking out for great opportunity to join team of great developers 
