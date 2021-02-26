@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/portfolio/static/js/main.8849402b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8849402b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d6850cfe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d6850cfe.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.6070bf7f.chunk.js": "/portfolio/static/js/2.6070bf7f.chunk.js",
-    "static/js/2.6070bf7f.chunk.js.map": "/portfolio/static/js/2.6070bf7f.chunk.js.map",
+    "static/js/2.608c5979.chunk.js": "/portfolio/static/js/2.608c5979.chunk.js",
+    "static/js/2.608c5979.chunk.js.map": "/portfolio/static/js/2.608c5979.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8b74a5080214d7b850c7843a1dcbd281.js": "/portfolio/precache-manifest.8b74a5080214d7b850c7843a1dcbd281.js",
+    "precache-manifest.40474860cce5b8acf574bf6bbab44af4.js": "/portfolio/precache-manifest.40474860cce5b8acf574bf6bbab44af4.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/portfolio/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.6070bf7f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6070bf7f.chunk.js.LICENSE.txt",
+    "static/js/2.608c5979.chunk.js.LICENSE.txt": "/portfolio/static/js/2.608c5979.chunk.js.LICENSE.txt",
     "static/media/Chess.png": "/portfolio/static/media/Chess.e9ba4238.png",
     "static/media/ChessMove.png": "/portfolio/static/media/ChessMove.6e3b9136.png",
     "static/media/ComicPage.png": "/portfolio/static/media/ComicPage.efc53000.png",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.6070bf7f.chunk.js",
+    "static/js/2.608c5979.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.8849402b.chunk.js"
+    "static/js/main.d6850cfe.chunk.js"
   ]
 }
